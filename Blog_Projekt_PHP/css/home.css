@@ -1,0 +1,47 @@
+/* General Spacing Fix */
+.media {
+    align-items: flex-start;
+}
+
+.media-left {
+    margin-right: 20px;
+}
+
+/* Image Styling */
+.rounded-image {
+    border-radius: 10px; /* Slightly rounded edges */
+    width: 100%; /* Full width of container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Prevent stretching */
+}
+
+/* Adjusting the Image Figure */
+.image {
+    border: 1px solid #ddd; /* Optional: subtle border for the image */
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Title and Content Styling */
+.content h2 {
+    margin-bottom: 10px;
+}
+
+.subtitle.is-6 {
+    margin-bottom: 10px;
+    word-wrap: break-word;
+}
+
+.has-text-justified {
+    line-height: 1.6;
+}
+
+/* Spacing Between Boxes */
+.box {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.box + .box {
+    margin-top: 20px;
+}
